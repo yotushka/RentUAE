@@ -3,7 +3,7 @@ import DefaultLayout from '@/features/Layouts/DefaultLayout';
 import PropertyCard from '@/features/common/modules/PropertyCard';
 import { getProperties } from '@/features/common/Api/getProperties';
 
-const Properties = ({ properties }) => {
+const PropertiesPage = ({ properties }) => {
     return (
         <DefaultLayout>
             <Box
@@ -24,10 +24,10 @@ const Properties = ({ properties }) => {
         </DefaultLayout>
     );
 };
-export default Properties;
+export default PropertiesPage;
 
 export async function getStaticProps() {
-    const properties = await getProperties(6);
+    const properties = await getProperties(9);
     return {
         props: { properties: properties }
     }

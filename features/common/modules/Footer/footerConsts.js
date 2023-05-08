@@ -1,14 +1,14 @@
 export const propertiesFooter = [
-    { name: "All Properties", link: "/properties" },
+    { name: "All Properties", link: "/all-properties" },
 ];
 
 export const about = [
-    { name: "About Us", link: "/AboutUs" },
+    { name: "About Us", link: "/about-us" },
 
 ];
 
 export const contactUs = [
-    { name: "Contact Us", link: "/Contact" },
+    { name: "Contact Us", link: "/contact" },
 
 ];
 
