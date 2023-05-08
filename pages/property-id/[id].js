@@ -107,7 +107,7 @@ const PropertySingle = ({ property }) => {
 };
 export default PropertySingle;
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
     const { id } = context.query;
     const property = await getProperty(id)
     return {

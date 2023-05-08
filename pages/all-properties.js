@@ -27,7 +27,7 @@ const PropertiesPage = ({ properties }) => {
 export default PropertiesPage;
 
 export async function getStaticProps() {
-    const properties = await getProperties(9);
+    const properties = await getProperties(5);
     return {
         props: { properties: properties }
     }

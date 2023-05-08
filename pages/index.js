@@ -21,7 +21,7 @@ export default function Home({ featuredProperties }) {
 }
 
 export async function getStaticProps() {
-  const properties = await getProperties(6);
+  const properties = await getProperties(4);
   return {
     props: { featuredProperties: properties }
   };
